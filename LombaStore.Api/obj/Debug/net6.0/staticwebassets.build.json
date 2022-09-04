@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "CRKFRK7eDoechrYSRbzf4olcX3LGg5HenwxDU9zbr1E=",
+  "Source": "LombaStore.Api",
+  "BasePath": "_content/LombaStore.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
