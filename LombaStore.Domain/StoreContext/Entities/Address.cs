@@ -1,15 +1,10 @@
 ﻿using LombaStore.Domain.StoreContext.Enums;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace LombaStore.Domain.StoreContext.Entities
 {
     public class Address
     {
-
         public Address(
             string street,
             string number,
@@ -30,8 +25,7 @@ namespace LombaStore.Domain.StoreContext.Entities
             Country = country;
             ZipCode = zipCode;
             Type = Type;
-            
-            
+                       
         }
 
         public string Street { get; private set; }
@@ -52,7 +46,10 @@ namespace LombaStore.Domain.StoreContext.Entities
 
         public EAddressType Type { get; private set; }
 
-
+        public override string ToString()
+        {
+            return $"{Street}, {Number} - {City}/{State}";
+        }
 
     }
 }

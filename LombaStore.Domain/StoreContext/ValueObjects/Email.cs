@@ -2,16 +2,16 @@
 {
     public class Email
     {
-        public Email(string email)
+        public Email(string address)
         {
-            Email = email;
+            Address = address;
         }
 
-        public string Email { get; private set; }
+        public string Address { get; private set; }
 
         public override string ToString()
         {
-            return Email;
+            return Address;
         }
     }
 }

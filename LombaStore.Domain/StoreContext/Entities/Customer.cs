@@ -10,16 +10,13 @@ namespace LombaStore.Domain.StoreContext.Entities
          Name name,
          Document document,
          Email email,
-         string phone,
-         string  shippingAddress,
-         string billingAddress )
+         string phone)
       {
          Name = name;
          Document = document;
          Email = email;
          Phone = phone;
-         ShippingAddress = shippingAddress;
-         BillingAddress = billingAddress;
+         Addresses = new List<Address>();
 
       }
 
@@ -31,10 +28,9 @@ namespace LombaStore.Domain.StoreContext.Entities
 
       public string Phone { get; private set; }
 
-      public string ShippingAddress { get; private set; }
+      public IReadOnlyCollection<Address> Addresses { get; private set; }
 
-      public string BillingAddress { get; private set; }
-
+      
       public override string ToString()
       {
          return Name.ToString();
