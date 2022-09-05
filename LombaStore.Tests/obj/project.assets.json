@@ -1788,6 +1788,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "LombaStore.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/LombaStore.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LombaStore.Domain.dll": {}
+        }
       }
     }
   },
@@ -6325,10 +6335,16 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "LombaStore.Domain/1.0.0": {
+      "type": "project",
+      "path": "../LombaStore.Domain/LombaStore.Domain.csproj",
+      "msbuildProject": "../LombaStore.Domain/LombaStore.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "LombaStore.Domain >= 1.0.0",
       "MSTest.TestAdapter >= 2.2.8",
       "MSTest.TestFramework >= 2.2.8",
       "Microsoft.NET.Test.Sdk >= 17.1.0",
@@ -6361,7 +6377,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\andersonlomba\\source\\repos\\LombaStore\\LombaStore.Domain\\LombaStore.Domain.csproj": {
+              "projectPath": "C:\\Users\\andersonlomba\\source\\repos\\LombaStore\\LombaStore.Domain\\LombaStore.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

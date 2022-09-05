@@ -33,7 +33,6 @@ namespace LombaStore.Domain.StoreContext.Entities
         }
 
         // To Place An Order
-
         public void Place(){}
         
     }

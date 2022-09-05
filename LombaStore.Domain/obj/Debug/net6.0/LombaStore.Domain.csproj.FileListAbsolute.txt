@@ -10,3 +10,15 @@ C:\Users\filip\LombaStore\LombaStore.Domain\obj\Debug\net6.0\LombaStore.Domain.d
 C:\Users\filip\LombaStore\LombaStore.Domain\obj\Debug\net6.0\refint\LombaStore.Domain.dll
 C:\Users\filip\LombaStore\LombaStore.Domain\obj\Debug\net6.0\LombaStore.Domain.pdb
 C:\Users\filip\LombaStore\LombaStore.Domain\obj\Debug\net6.0\ref\LombaStore.Domain.dll
+C:\Users\andersonlomba\source\repos\LombaStore\LombaStore.Domain\bin\Debug\net6.0\LombaStore.Domain.deps.json
+C:\Users\andersonlomba\source\repos\LombaStore\LombaStore.Domain\bin\Debug\net6.0\LombaStore.Domain.dll
+C:\Users\andersonlomba\source\repos\LombaStore\LombaStore.Domain\bin\Debug\net6.0\LombaStore.Domain.pdb
+C:\Users\andersonlomba\source\repos\LombaStore\LombaStore.Domain\obj\Debug\net6.0\LombaStore.Domain.csproj.AssemblyReference.cache
+C:\Users\andersonlomba\source\repos\LombaStore\LombaStore.Domain\obj\Debug\net6.0\LombaStore.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andersonlomba\source\repos\LombaStore\LombaStore.Domain\obj\Debug\net6.0\LombaStore.Domain.AssemblyInfoInputs.cache
+C:\Users\andersonlomba\source\repos\LombaStore\LombaStore.Domain\obj\Debug\net6.0\LombaStore.Domain.AssemblyInfo.cs
+C:\Users\andersonlomba\source\repos\LombaStore\LombaStore.Domain\obj\Debug\net6.0\LombaStore.Domain.csproj.CoreCompileInputs.cache
+C:\Users\andersonlomba\source\repos\LombaStore\LombaStore.Domain\obj\Debug\net6.0\LombaStore.Domain.dll
+C:\Users\andersonlomba\source\repos\LombaStore\LombaStore.Domain\obj\Debug\net6.0\refint\LombaStore.Domain.dll
+C:\Users\andersonlomba\source\repos\LombaStore\LombaStore.Domain\obj\Debug\net6.0\LombaStore.Domain.pdb
+C:\Users\andersonlomba\source\repos\LombaStore\LombaStore.Domain\obj\Debug\net6.0\ref\LombaStore.Domain.dll

@@ -1,5 +1,5 @@
 using LombaStore.Domain.StoreContext.ValueObjects;
-using System;
+
 
 namespace LombaStore.Domain.StoreContext.Entities
 {
@@ -8,28 +8,32 @@ namespace LombaStore.Domain.StoreContext.Entities
    {
         public Customer(
          Name name,
-         string document,
-         string email,
+         Document document,
+         Email email,
          string phone,
-         string address )
+         string  shippingAddress,
+         string billingAddress )
       {
          Name = name;
          Document = document;
          Email = email;
          Phone = phone;
-         Address = address; 
-         
+         ShippingAddress = shippingAddress;
+         BillingAddress = billingAddress;
+
       }
 
+      public Name Name{ get; private set; }
+      
+      public Document Document{ get; private set; }
 
-      public Name Name  { get; private set; }
-      public string Document { get; private set; }
-
-      public string Email { get; private set; }
+      public Email Email{ get; private set; }
 
       public string Phone { get; private set; }
 
-      public string Address { get; private set; }
+      public string ShippingAddress { get; private set; }
+
+      public string BillingAddress { get; private set; }
 
       public override string ToString()
       {

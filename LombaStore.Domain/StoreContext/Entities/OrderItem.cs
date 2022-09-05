@@ -14,7 +14,7 @@ namespace LombaStore.Domain.StoreContext.Entities
 
         public decimal Quantity {get;  private set;}
 
-         public decimal Price { get; private set; }
+        public decimal Price { get; private set; }
         
     }
 }
