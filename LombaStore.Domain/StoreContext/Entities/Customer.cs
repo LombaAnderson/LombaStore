@@ -3,9 +3,10 @@ using LombaStore.Domain.StoreContext.ValueObjects;
 
 namespace LombaStore.Domain.StoreContext.Entities
 {
-
    public class Customer
    {
+
+      private readonly IList<Address> _addresses;
         public Customer(
          Name name,
          Document document,
@@ -16,7 +17,7 @@ namespace LombaStore.Domain.StoreContext.Entities
          Document = document;
          Email = email;
          Phone = phone;
-         Addresses = new List<Address>();
+         _addresses = new List<Address>();
 
       }
 
@@ -28,9 +29,16 @@ namespace LombaStore.Domain.StoreContext.Entities
 
       public string Phone { get; private set; }
 
-      public IReadOnlyCollection<Address> Addresses { get; private set; }
+      public IReadOnlyCollection<Address> Addresses => _addresses.ToArray(); 
 
-      
+
+        public void AddAddress(Address address)
+        {
+            //Validar o endereço
+            // Adicionar o endereço
+            _addresses.Add(address);
+        }
+  
       public override string ToString()
       {
          return Name.ToString();
