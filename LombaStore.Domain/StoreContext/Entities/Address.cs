@@ -10,22 +10,37 @@ namespace LombaStore.Domain.StoreContext.Entities
     public class Address
     {
 
-        public Address(string street,
+        public Address(
+            string street,
             string number,
             string complement,
             string district,
-            )
+            string city,
+            string state,
+            string country,
+            string zipCode,
+            string EAddressType type)
         {
-
+            Street = street;
+            Number = number;
+            Complement = complement;
+            Discrict = district;
+            City = city;
+            State = state;
+            Country = country;
+            ZipCode = zipCode;
+            Type = Type;
+            
+            
         }
-
-
 
         public string Street { get; private set; }
 
         public string Number { get; private set; }
 
         public string Complement { get; private set; }
+
+        public string Discrict { get; private set; }
 
         public string City { get; private set; }
 
@@ -36,5 +51,8 @@ namespace LombaStore.Domain.StoreContext.Entities
         public string ZipCode { get; private set; }
 
         public EAddressType Type { get; private set; }
+
+
+
     }
 }
