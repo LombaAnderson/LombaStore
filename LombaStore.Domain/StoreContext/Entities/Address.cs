@@ -19,7 +19,7 @@ namespace LombaStore.Domain.StoreContext.Entities
             string state,
             string country,
             string zipCode,
-            string EAddressType type)
+            EAddressType type)
         {
             Street = street;
             Number = number;
