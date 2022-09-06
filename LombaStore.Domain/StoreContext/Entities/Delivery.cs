@@ -17,6 +17,14 @@ namespace LombaStore.Domain.StoreContext.Entities
         public DateTime EstimateDeliveryDate { get;  private set;}
 
         public EDeliveryStatus Status { get; private set; }
+
+
+        public void Ship()
+        {
+
+            // Se a data de entrega estiver no passado, não entregar
+            Status = EDeliveryStatus.Shipped;
+        }
         
     }
 }
