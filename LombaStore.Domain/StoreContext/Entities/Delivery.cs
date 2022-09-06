@@ -25,6 +25,12 @@ namespace LombaStore.Domain.StoreContext.Entities
             // Se a data de entrega estiver no passado, não entregar
             Status = EDeliveryStatus.Shipped;
         }
+
+        public void Cancel()
+        {
+            //Se o status já estiver entregue , não pode cancelar
+            Status = EDeliveryStatus.Canceled;
+        }
         
     }
 }

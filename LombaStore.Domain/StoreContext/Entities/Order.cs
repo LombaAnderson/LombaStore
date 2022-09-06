@@ -19,6 +19,7 @@ namespace LombaStore.Domain.StoreContext.Entities
                 
         }
         public Customer Customer { get; private set; }
+        
         public string Number {get;  private set;}
 
         public DateTime CreateDate { get;  private set; }
@@ -79,6 +80,10 @@ namespace LombaStore.Domain.StoreContext.Entities
         }
 
         // Cancelar um pedido
-        
+        public void Cancel()
+        {
+            Status = EOrderStatus.Canceled;
+            _deliveries.ToList().ForEach(x => x.Cancel());
+        }
     }
 }
