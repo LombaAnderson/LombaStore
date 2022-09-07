@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "hNhc+g1zW+bweNsrxAjS4MWH0Z4MhVJEEcz+jTvfZAHj5BBFnNnX4A2OnpZKiehjE/LiZBxaOQu0BYxjSNzISQ==",
+  "dgSpecHash": "8+0larA7UZvWUQKhrfGJH5R3i+zHMsozL9jlDj1xpRti7wv43GxLuKitXBeB2bJAwWiNaJjc/4YVhT7SNi4eAw==",
   "success": true,
   "projectFilePath": "C:\\Users\\andersonlomba\\source\\repos\\LombaStore\\LombaStore.Tests\\LombaStore.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\filip\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
+    "C:\\Users\\filip\\.nuget\\packages\\fluentvalidator\\2.0.2\\fluentvalidator.2.0.2.nupkg.sha512",
     "C:\\Users\\filip\\.nuget\\packages\\microsoft.codecoverage\\17.1.0\\microsoft.codecoverage.17.1.0.nupkg.sha512",
     "C:\\Users\\filip\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Users\\filip\\.nuget\\packages\\microsoft.net.test.sdk\\17.1.0\\microsoft.net.test.sdk.17.1.0.nupkg.sha512",
