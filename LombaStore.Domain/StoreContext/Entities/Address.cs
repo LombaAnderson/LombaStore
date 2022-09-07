@@ -1,9 +1,10 @@
-﻿using LombaStore.Domain.StoreContext.Enums;
+﻿using FluentValidator;
+using LombaStore.Domain.StoreContext.Enums;
 
 
 namespace LombaStore.Domain.StoreContext.Entities
 {
-    public class Address
+    public class Address: Notifiable
     {
         public Address(
             string street,

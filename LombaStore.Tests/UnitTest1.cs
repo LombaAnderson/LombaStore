@@ -25,13 +25,16 @@ namespace LombaStore.Tests
 
 
             var order = new Order(c);
-            order.AddItem(new OrderItem(caneta, 5));
-            order.AddItem(new OrderItem(lapis, 5));
-            order.AddItem(new OrderItem(borracha, 5));
-            order.AddItem(new OrderItem(regua, 5));
+            //order.AddItem(new OrderItem(caneta, 5));
+            //order.AddItem(new OrderItem(lapis, 5));
+            //order.AddItem(new OrderItem(borracha, 5));
+            //order.AddItem(new OrderItem(regua, 5));
 
             // Pedido realizado
             order.Place();
+
+            // Verificar se o pedido é válido
+            var valid = order.IsValid;
 
             // Simulação de pagamento
             order.Pay();

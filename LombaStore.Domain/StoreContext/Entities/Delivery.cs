@@ -1,9 +1,10 @@
+using FluentValidator;
 using LombaStore.Domain.StoreContext.Enums;
 using System;
 
 namespace LombaStore.Domain.StoreContext.Entities
 {
-    public class Delivery
+    public class Delivery: Notifiable
     {
 
         public Delivery(DateTime estimateDeliveryDate)

@@ -1,8 +1,9 @@
+using FluentValidator;
 using LombaStore.Domain.StoreContext.Enums;
 
 namespace LombaStore.Domain.StoreContext.Entities
 {
-    public class Order
+    public class Order: Notifiable
     {
 
         private readonly IList<OrderItem> _items;
@@ -42,7 +43,10 @@ namespace LombaStore.Domain.StoreContext.Entities
         {
             // Gera o número do pedido
             Number = Guid.NewGuid().ToString().Replace("-", "").Substring(0, 8).ToUpper();
+
             // Validar
+            if (_items.Count == 0)
+                AddNotification("Order", "Este pedido não possui itens");
         }
 
         // Pagar um pedido

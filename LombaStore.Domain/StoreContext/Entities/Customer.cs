@@ -1,9 +1,10 @@
+using FluentValidator;
 using LombaStore.Domain.StoreContext.ValueObjects;
 
 
 namespace LombaStore.Domain.StoreContext.Entities
 {
-   public class Customer
+   public class Customer: Notifiable
    {
 
       private readonly IList<Address> _addresses;
